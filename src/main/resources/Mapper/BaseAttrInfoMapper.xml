@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper SYSTEM "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<!--namespace : 接口的全路径-->
+<mapper namespace="com.xinzhi.demo.Mapper.BaseAttrValueMapper">
+
+    <!--实体类与数据库进行对应-->
+    <resultMap id="brandResultMap" type="com.xinzhi.demo.pojo.Brand">
+        <!--
+                id：完成主键字段的映射
+                    column：表的列名
+                    property：实体类的属性名
+                result：完成一般字段的映射
+                    column：表的列名
+                    property：实体类的属性名
+            -->
+        <result column="brand_name" property="brandName"/>
+        <result column="company_name" property="companyName"/>
+    </resultMap>
+
+
+    <!--查询所有以 list集合接收-->
+
+    <select id="selectAll" resultMap="brandResultMap">
+        select
+        *
+        from tb_brand;
+    </select>
+
+    <!--    根据id进行查询-->
+    <!--    返回数字时resulttype=java.long.integer-->
+    <select id="selectById" resultMap="brandResultMap">
+        select
+        *
+        from tb_brand where id=#{id};
+    </select>
+
+    <!--    返回多条数据用map进行接收-->
+    <select id="selectAllByMap" resultType="map">
+        select
+        *
+        from tb_brand ;
+    </select>
+    <!--    返回多条数据用map进行接收   键自己设定-->
+    <select id="MapTokey" resultType="map">
+        select
+        *
+        from tb_brand ;
+    </select>
+
+
+    <!--    以对象形式添加    主键返回-->
+
+    <insert id="add" parameterType="com.xinzhi.demo.pojo.Brand"  useGeneratedKeys="true" keyProperty="id">
+    	insert into tb_brand values(
+        #{id},
+        #{brandName},
+        #{companyName},
+        #{ordered},
+        #{description},
+        #{status}
+    	)
+    </insert>
+
+    <!--  修改-->
+    <update id="updataById">
+        update tb_brand
+        <set>
+            <if test="brandName != null and brandName != ''">
+                brand_name = #{brandName},
+            </if>
+            <if test="companyName != null and companyName != ''">
+                company_name = #{companyName},
+            </if>
+            <if test="ordered != null">
+                ordered = #{ordered},
+            </if>
+            <if test="description != null and description != ''">
+                description = #{description},
+            </if>
+            <if test="status != null">
+                status = #{status}
+            </if>
+        </set>
+        where id = #{id};
+    </update>
+
+    <!--根据id进行删除   特殊字段处理 <![CDATA[内容]]>  -->
+    <delete id="deleteById">
+    delete from tb_brand where id <![CDATA[>]]> #{id};
+    </delete>
+
+<!-- 多条件查询
+where 标签
+
+- 作用：
+  - 替换where关键字
+  - 会动态的去掉第一个条件前的 and
+  - 如果所有的参数没有值则不加where关键字
+
+  Preparing:select from tb_brand where status and company_name like
+-->
+    <select id="conditionQuery" resultMap="brandResultMap">
+        select *
+        from tb_brand
+      <where>
+          <if test="status != null">
+              and  status = #{status}
+          </if>
+          <if test="companyName != null and companyName != '' ">
+              and company_name like #{companyName}
+          </if>
+          <if test="brandName != null and brandName != '' ">
+              and brand_name like #{brandName}
+          </if>
+      </where>
+
+</select>
+
+
+<!--    根据id批量删除-->
+
+    <delete id="deleteByIds">
+        delete from tb_brand where id
+        in
+        <foreach collection="array" item="id" separator="," open="(" close=")">
+            #{id}
+        </foreach>
+        ;
+    </delete>
+
+
+<!--    当前订单属于哪一个用户   （一对一 即一个订单中有一个实体类）   用到的表是order和user表    -->
+
+    <resultMap id="orderMap" type="com.xinzhi.demo.pojo.Order">
+<!--        order-->
+        <id column="oid" property="id"></id>
+        <result column="order_time" property="ordertime"></result>
+        <result column="total" property="total"></result>
+<!--        user-->
+        <association property="user" javaType="com.xinzhi.demo.pojo.User">
+            <result column="uid" property="id"></result>
+            <result column="username" property="username"></result>
+            <result column="password" property="password"></result>
+            <result column="birthday" property="birthday"></result>
+        </association>
+    </resultMap>
+
+    <select id="oderByUser" resultMap="orderMap">
+    select *, o.id oid ,u.id uid from `order` o,`user` u where o.id=#{id}=u.id;
+--     select *, o.id oid ,u.id uid from `order` o,`user` u where o.id==u.id and o.id=#{id};
+--       TODO
+
+    </select>
+
+
+
+    <!--    当前用户有多少个订单   （一对多）  （一对多 即一个订单中有一个集合）   用到的表是order和user表    -->
+    <resultMap id="userMap" type="com.xinzhi.demo.pojo.User">
+        <!--        user-->
+        <result column="uid" property="id"></result>
+        <result column="username" property="username"></result>
+        <result column="password" property="password"></result>
+        <result column="birthday" property="birthday"></result>
+<!--        order的集合-->
+        <collection property="orderList" ofType="com.xinzhi.demo.pojo.Order">
+            <id column="oid" property="id"></id>
+            <result column="order_time" property="ordertime"></result>
+            <result column="total" property="total"></result>
+        </collection>
+    </resultMap>
+
+    <select id="userByOder" resultMap="userMap">
+    select *,u.id uid,o.id oid from `user` u LEFT JOIN `order`o on u.id=o.id WHERE u.id=#{id};
+    </select>
+
+ <!--    一个用户有多少个角色和一个角色可以被多个用户使用   （多对多）  （多对多 即一个实体类中有另一个实体类中的集合，
+ 同时另一个实体类中也有这个实体类中的集合）   role和user表user_order   -->
+    <resultMap id="userMap2" type="com.xinzhi.demo.pojo.User">
+        <!--        user-->
+        <result column="uid" property="id"></result>
+        <result column="username" property="username"></result>
+        <result column="password" property="password"></result>
+        <result column="birthday" property="birthday"></result>
+<!--        order的集合-->
+        <collection property="roleList" ofType="com.xinzhi.demo.pojo.Role">
+            <id column="oid" property="id"></id>
+            <result column="role_Name" property="roleName"></result>
+            <result column="role_Desc" property="roleDesc"></result>
+        </collection>
+    </resultMap>
+
+    <select id="userByrole" resultMap="userMap2">
+  select u.*,r.* from `user` u left join user_role ur on
+        u.id=ur.u_id
+                       inner join role r on ur.o_id=r.id where u.id=#{id};
+    </select>
+
+
+
+</mapper>

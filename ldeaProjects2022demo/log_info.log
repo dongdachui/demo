@@ -1,0 +1,221 @@
+2022-09-07 02:16:07.966 [main] INFO  com.xinzhi.demo.DemoApplication - Starting DemoApplication on DESKTOP-1I7D7AS with PID 179848 (F:\ldeaProjects2022\demo\target\classes started by 15693 in F:\ldeaProjects2022\demo)
+2022-09-07 02:16:07.969 [main] INFO  com.xinzhi.demo.DemoApplication - The following profiles are active: dev
+2022-09-07 02:16:08.683 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-09-07 02:16:08.843 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8201 (http)
+2022-09-07 02:16:08.850 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8201"]
+2022-09-07 02:16:08.851 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-09-07 02:16:08.851 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-09-07 02:16:08.852 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2022-09-07 02:16:08.852 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2022-09-07 02:16:08.852 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2022-09-07 02:16:08.853 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-09-07 02:16:09.937 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2022-09-07 02:16:10.015 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-09-07 02:16:10.015 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2017 ms
+2022-09-07 02:16:10.173 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-09-07 02:16:10.181 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-09-07 02:16:21.166 [main] INFO  com.xinzhi.demo.DemoApplication - Starting DemoApplication on DESKTOP-1I7D7AS with PID 137208 (F:\ldeaProjects2022\demo\target\classes started by 15693 in F:\ldeaProjects2022\demo)
+2022-09-07 02:16:21.170 [main] INFO  com.xinzhi.demo.DemoApplication - The following profiles are active: dev
+2022-09-07 02:16:21.875 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-09-07 02:16:22.018 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8201 (http)
+2022-09-07 02:16:22.024 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8201"]
+2022-09-07 02:16:22.025 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-09-07 02:16:22.025 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-09-07 02:16:22.026 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2022-09-07 02:16:22.026 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2022-09-07 02:16:22.026 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2022-09-07 02:16:22.026 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-09-07 02:16:23.113 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2022-09-07 02:16:23.182 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-09-07 02:16:23.182 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1975 ms
+2022-09-07 02:16:23.633 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-09-07 02:16:23.692 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-07 02:16:23.787 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-09-07 02:16:23.798 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 2 custom documentation plugin(s)
+2022-09-07 02:16:23.818 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-09-07 02:16:24.019 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-09-07 02:16:24.044 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addUsingGET_1
+2022-09-07 02:16:24.046 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addUsingHEAD_1
+2022-09-07 02:16:24.047 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addUsingPOST_1
+2022-09-07 02:16:24.048 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addUsingPUT_1
+2022-09-07 02:16:24.049 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addUsingPATCH_1
+2022-09-07 02:16:24.051 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addUsingDELETE_1
+2022-09-07 02:16:24.052 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addUsingOPTIONS_1
+2022-09-07 02:16:24.053 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addUsingTRACE_1
+2022-09-07 02:16:24.057 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: conditionQueryUsingGET_1
+2022-09-07 02:16:24.060 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: conditionQueryUsingHEAD_1
+2022-09-07 02:16:24.061 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: conditionQueryUsingPOST_1
+2022-09-07 02:16:24.063 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: conditionQueryUsingPUT_1
+2022-09-07 02:16:24.065 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: conditionQueryUsingPATCH_1
+2022-09-07 02:16:24.067 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: conditionQueryUsingDELETE_1
+2022-09-07 02:16:24.069 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: conditionQueryUsingOPTIONS_1
+2022-09-07 02:16:24.071 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: conditionQueryUsingTRACE_1
+2022-09-07 02:16:24.073 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteByIdUsingGET_1
+2022-09-07 02:16:24.074 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteByIdUsingHEAD_1
+2022-09-07 02:16:24.076 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteByIdUsingPOST_1
+2022-09-07 02:16:24.077 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteByIdUsingPUT_1
+2022-09-07 02:16:24.078 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteByIdUsingPATCH_1
+2022-09-07 02:16:24.079 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteByIdUsingDELETE_1
+2022-09-07 02:16:24.080 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteByIdUsingOPTIONS_1
+2022-09-07 02:16:24.082 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteByIdUsingTRACE_1
+2022-09-07 02:16:24.084 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteByIdsUsingGET_1
+2022-09-07 02:16:24.085 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteByIdsUsingHEAD_1
+2022-09-07 02:16:24.086 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteByIdsUsingPOST_1
+2022-09-07 02:16:24.087 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteByIdsUsingPUT_1
+2022-09-07 02:16:24.089 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteByIdsUsingPATCH_1
+2022-09-07 02:16:24.090 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteByIdsUsingDELETE_1
+2022-09-07 02:16:24.091 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteByIdsUsingOPTIONS_1
+2022-09-07 02:16:24.092 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteByIdsUsingTRACE_1
+2022-09-07 02:16:24.097 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: oderByUserUsingGET_1
+2022-09-07 02:16:24.099 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectAllUsingGET_1
+2022-09-07 02:16:24.100 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectAllUsingHEAD_1
+2022-09-07 02:16:24.101 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectAllUsingPOST_1
+2022-09-07 02:16:24.102 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectAllUsingPUT_1
+2022-09-07 02:16:24.104 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectAllUsingPATCH_1
+2022-09-07 02:16:24.105 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectAllUsingDELETE_1
+2022-09-07 02:16:24.106 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectAllUsingOPTIONS_1
+2022-09-07 02:16:24.107 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectAllUsingTRACE_1
+2022-09-07 02:16:24.109 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectAllByMapUsingGET_1
+2022-09-07 02:16:24.111 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectAllByMapTokeyUsingGET_1
+2022-09-07 02:16:24.112 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectAllByMapTokeyUsingHEAD_1
+2022-09-07 02:16:24.114 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectAllByMapTokeyUsingPOST_1
+2022-09-07 02:16:24.115 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectAllByMapTokeyUsingPUT_1
+2022-09-07 02:16:24.116 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectAllByMapTokeyUsingPATCH_1
+2022-09-07 02:16:24.117 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectAllByMapTokeyUsingDELETE_1
+2022-09-07 02:16:24.118 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectAllByMapTokeyUsingOPTIONS_1
+2022-09-07 02:16:24.120 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectAllByMapTokeyUsingTRACE_1
+2022-09-07 02:16:24.122 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectByIdUsingGET_1
+2022-09-07 02:16:24.124 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectByIdUsingHEAD_1
+2022-09-07 02:16:24.125 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectByIdUsingPOST_1
+2022-09-07 02:16:24.127 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectByIdUsingPUT_1
+2022-09-07 02:16:24.129 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectByIdUsingPATCH_1
+2022-09-07 02:16:24.130 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectByIdUsingDELETE_1
+2022-09-07 02:16:24.133 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectByIdUsingOPTIONS_1
+2022-09-07 02:16:24.134 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectByIdUsingTRACE_1
+2022-09-07 02:16:24.137 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectMapUsingGET_1
+2022-09-07 02:16:24.138 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectMapUsingHEAD_1
+2022-09-07 02:16:24.140 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectMapUsingPOST_1
+2022-09-07 02:16:24.141 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectMapUsingPUT_1
+2022-09-07 02:16:24.142 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectMapUsingPATCH_1
+2022-09-07 02:16:24.143 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectMapUsingDELETE_1
+2022-09-07 02:16:24.145 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectMapUsingOPTIONS_1
+2022-09-07 02:16:24.146 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectMapUsingTRACE_1
+2022-09-07 02:16:24.148 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updataByIdUsingGET_1
+2022-09-07 02:16:24.149 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updataByIdUsingHEAD_1
+2022-09-07 02:16:24.150 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updataByIdUsingPOST_1
+2022-09-07 02:16:24.151 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updataByIdUsingPUT_1
+2022-09-07 02:16:24.152 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updataByIdUsingPATCH_1
+2022-09-07 02:16:24.154 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updataByIdUsingDELETE_1
+2022-09-07 02:16:24.155 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updataByIdUsingOPTIONS_1
+2022-09-07 02:16:24.156 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updataByIdUsingTRACE_1
+2022-09-07 02:16:24.159 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: userByOderUsingGET_1
+2022-09-07 02:16:24.161 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: userByroleUsingGET_1
+2022-09-07 02:16:24.168 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8201"]
+2022-09-07 02:16:24.185 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8201 (http) with context path ''
+2022-09-07 02:16:24.188 [main] INFO  com.xinzhi.demo.DemoApplication - Started DemoApplication in 3.323 seconds (JVM running for 3.968)
+2022-09-07 02:16:31.166 [main] INFO  com.xinzhi.demo.DemoApplication - Starting DemoApplication on DESKTOP-1I7D7AS with PID 179500 (F:\ldeaProjects2022\demo\target\classes started by 15693 in F:\ldeaProjects2022\demo)
+2022-09-07 02:16:31.170 [main] INFO  com.xinzhi.demo.DemoApplication - The following profiles are active: dev
+2022-09-07 02:16:31.809 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-09-07 02:16:31.960 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8201 (http)
+2022-09-07 02:16:31.966 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8201"]
+2022-09-07 02:16:31.966 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-09-07 02:16:31.967 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-09-07 02:16:31.968 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2022-09-07 02:16:31.968 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2022-09-07 02:16:31.968 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2022-09-07 02:16:31.968 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-09-07 02:16:33.064 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2022-09-07 02:16:33.141 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-09-07 02:16:33.141 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1937 ms
+2022-09-07 02:16:33.592 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-09-07 02:16:33.645 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-07 02:16:33.737 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-09-07 02:16:33.746 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 2 custom documentation plugin(s)
+2022-09-07 02:16:33.765 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-09-07 02:16:33.978 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-09-07 02:16:34.003 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addUsingGET_1
+2022-09-07 02:16:34.004 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addUsingHEAD_1
+2022-09-07 02:16:34.005 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addUsingPOST_1
+2022-09-07 02:16:34.006 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addUsingPUT_1
+2022-09-07 02:16:34.008 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addUsingPATCH_1
+2022-09-07 02:16:34.009 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addUsingDELETE_1
+2022-09-07 02:16:34.010 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addUsingOPTIONS_1
+2022-09-07 02:16:34.011 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addUsingTRACE_1
+2022-09-07 02:16:34.015 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: conditionQueryUsingGET_1
+2022-09-07 02:16:34.017 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: conditionQueryUsingHEAD_1
+2022-09-07 02:16:34.019 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: conditionQueryUsingPOST_1
+2022-09-07 02:16:34.021 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: conditionQueryUsingPUT_1
+2022-09-07 02:16:34.023 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: conditionQueryUsingPATCH_1
+2022-09-07 02:16:34.025 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: conditionQueryUsingDELETE_1
+2022-09-07 02:16:34.027 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: conditionQueryUsingOPTIONS_1
+2022-09-07 02:16:34.029 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: conditionQueryUsingTRACE_1
+2022-09-07 02:16:34.031 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteByIdUsingGET_1
+2022-09-07 02:16:34.032 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteByIdUsingHEAD_1
+2022-09-07 02:16:34.033 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteByIdUsingPOST_1
+2022-09-07 02:16:34.035 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteByIdUsingPUT_1
+2022-09-07 02:16:34.036 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteByIdUsingPATCH_1
+2022-09-07 02:16:34.037 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteByIdUsingDELETE_1
+2022-09-07 02:16:34.038 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteByIdUsingOPTIONS_1
+2022-09-07 02:16:34.040 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteByIdUsingTRACE_1
+2022-09-07 02:16:34.042 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteByIdsUsingGET_1
+2022-09-07 02:16:34.043 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteByIdsUsingHEAD_1
+2022-09-07 02:16:34.044 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteByIdsUsingPOST_1
+2022-09-07 02:16:34.045 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteByIdsUsingPUT_1
+2022-09-07 02:16:34.047 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteByIdsUsingPATCH_1
+2022-09-07 02:16:34.048 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteByIdsUsingDELETE_1
+2022-09-07 02:16:34.049 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteByIdsUsingOPTIONS_1
+2022-09-07 02:16:34.050 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteByIdsUsingTRACE_1
+2022-09-07 02:16:34.055 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: oderByUserUsingGET_1
+2022-09-07 02:16:34.057 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectAllUsingGET_1
+2022-09-07 02:16:34.058 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectAllUsingHEAD_1
+2022-09-07 02:16:34.059 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectAllUsingPOST_1
+2022-09-07 02:16:34.061 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectAllUsingPUT_1
+2022-09-07 02:16:34.062 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectAllUsingPATCH_1
+2022-09-07 02:16:34.063 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectAllUsingDELETE_1
+2022-09-07 02:16:34.064 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectAllUsingOPTIONS_1
+2022-09-07 02:16:34.065 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectAllUsingTRACE_1
+2022-09-07 02:16:34.067 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectAllByMapUsingGET_1
+2022-09-07 02:16:34.069 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectAllByMapTokeyUsingGET_1
+2022-09-07 02:16:34.070 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectAllByMapTokeyUsingHEAD_1
+2022-09-07 02:16:34.071 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectAllByMapTokeyUsingPOST_1
+2022-09-07 02:16:34.073 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectAllByMapTokeyUsingPUT_1
+2022-09-07 02:16:34.074 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectAllByMapTokeyUsingPATCH_1
+2022-09-07 02:16:34.075 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectAllByMapTokeyUsingDELETE_1
+2022-09-07 02:16:34.076 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectAllByMapTokeyUsingOPTIONS_1
+2022-09-07 02:16:34.077 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectAllByMapTokeyUsingTRACE_1
+2022-09-07 02:16:34.079 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectByIdUsingGET_1
+2022-09-07 02:16:34.080 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectByIdUsingHEAD_1
+2022-09-07 02:16:34.081 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectByIdUsingPOST_1
+2022-09-07 02:16:34.082 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectByIdUsingPUT_1
+2022-09-07 02:16:34.084 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectByIdUsingPATCH_1
+2022-09-07 02:16:34.085 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectByIdUsingDELETE_1
+2022-09-07 02:16:34.086 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectByIdUsingOPTIONS_1
+2022-09-07 02:16:34.088 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectByIdUsingTRACE_1
+2022-09-07 02:16:34.089 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectMapUsingGET_1
+2022-09-07 02:16:34.091 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectMapUsingHEAD_1
+2022-09-07 02:16:34.092 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectMapUsingPOST_1
+2022-09-07 02:16:34.093 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectMapUsingPUT_1
+2022-09-07 02:16:34.094 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectMapUsingPATCH_1
+2022-09-07 02:16:34.096 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectMapUsingDELETE_1
+2022-09-07 02:16:34.097 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectMapUsingOPTIONS_1
+2022-09-07 02:16:34.098 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectMapUsingTRACE_1
+2022-09-07 02:16:34.100 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updataByIdUsingGET_1
+2022-09-07 02:16:34.101 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updataByIdUsingHEAD_1
+2022-09-07 02:16:34.103 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updataByIdUsingPOST_1
+2022-09-07 02:16:34.104 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updataByIdUsingPUT_1
+2022-09-07 02:16:34.105 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updataByIdUsingPATCH_1
+2022-09-07 02:16:34.106 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updataByIdUsingDELETE_1
+2022-09-07 02:16:34.107 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updataByIdUsingOPTIONS_1
+2022-09-07 02:16:34.108 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updataByIdUsingTRACE_1
+2022-09-07 02:16:34.111 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: userByOderUsingGET_1
+2022-09-07 02:16:34.114 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: userByroleUsingGET_1
+2022-09-07 02:16:34.120 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8201"]
+2022-09-07 02:16:34.135 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8201 (http) with context path ''
+2022-09-07 02:16:34.137 [main] INFO  com.xinzhi.demo.DemoApplication - Started DemoApplication in 3.272 seconds (JVM running for 3.995)
+2022-09-07 02:17:27.194 [http-nio-8201-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-07 02:17:27.194 [http-nio-8201-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-09-07 02:17:27.199 [http-nio-8201-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2022-09-07 02:17:39.003 [http-nio-8201-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-09-07 02:17:39.083 [http-nio-8201-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
